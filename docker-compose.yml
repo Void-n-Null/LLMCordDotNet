@@ -1,0 +1,6 @@
+﻿services:
+  llmcorddotnet:
+    image: llmcorddotnet
+    build:
+      context: .
+      dockerfile: Dockerfile
